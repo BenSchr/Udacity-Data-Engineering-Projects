@@ -6,7 +6,9 @@ In order to enable Sparkify to parse their data automated over S3 into Redshift,
 
 # Files in the repository
 
-* **[airflow](airflow)**: workspace folder storing the airflow DAGs and plugins
+* **[airflow](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server
+* **[airflow/dags](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server
+
 
 
 # The database schema design and ETL pipeline.
