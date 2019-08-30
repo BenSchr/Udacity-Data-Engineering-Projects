@@ -12,7 +12,7 @@ In order to enable Sparkify to parse their data automated over S3 into Redshift,
 
 # The required DAG
 
-<img src="./images/airflow_dag.jpg" width="600" />
+<img src="./images/airflow_dag.jpg?raw=true" width="600" />
 
 # The database schema design and ETL pipeline.
 
