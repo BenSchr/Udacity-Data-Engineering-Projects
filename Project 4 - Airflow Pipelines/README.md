@@ -6,10 +6,13 @@ In order to enable Sparkify to parse their data automated over S3 into Redshift,
 
 # Files in the repository
 
-* **[airflow](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server
-* **[airflow/dags](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server
+* **[airflow](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server.
+* **[airflow/dags/s3_to_redshift_dag.py](airflow/dags/s3_to_redshift_dag.py)**: "Main"-DAG written in Python containing all steps of the pipeline.
+* **[airflow/plugins/operators/](airflow/plugins/operators)**: Folder containing such called operators which can be called inside an Airflow DAG. These are python classes to outsource and build generic functions as modules of the DAG.
 
+# The required DAG
 
+<img src="./images/airflow_dag.jpg" width="600" />
 
 # The database schema design and ETL pipeline.
 
@@ -23,7 +26,7 @@ The fact table is used to store all user song activities that contain the catego
 
 # Dataset used
 
-The data is queried from s3 buckets hosten at AWS
+The data is queried from s3 buckets hosted at AWS
 
 * **Song data**: ```s3://udacity-dend/song_data```
 * **Log data**: ```s3://udacity-dend/log_data```
