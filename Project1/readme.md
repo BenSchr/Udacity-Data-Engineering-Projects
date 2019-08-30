@@ -1,4 +1,4 @@
-# Summary of project Test
+# Summary of project
 
 Startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
@@ -27,7 +27,7 @@ python3 etl.py
 
 # The purpose of this database
 
-
+Using a database makes it easier to analyze the data. By using SQL and the star scheme, joins and aggregations, the data can be searched and summarized quickly and easily.  By using a relational database, Sparkify can also perform ad hoc analysis of its database. 
 
 # The database schema design and ETL pipeline.
 
