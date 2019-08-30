@@ -15,8 +15,7 @@ python3 etl.py
 
 # Files in the repository
 
-* **[airflow](airflow)**: Workspace folder in airflow
-* **[airflow](airflow)**: Workspace folder in airflow
+* **[etl.py](etl.py)**: Python script to extract the needed information from Song and Log data inside the S3 buckets and parsing/inserting them to the local directory
 
 
 # The database schema design and ETL pipeline.
