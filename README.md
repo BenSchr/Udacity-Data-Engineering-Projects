@@ -11,4 +11,4 @@ Project Folder | Description | Done
 **[Project 2 - AWS Redshift](Project%202%20-%20AWS%20Redshift)** | Building a star schema in AWS Redshift and inserting data from AWS S3 via Python | :heavy_check_mark:
 **[Project 3 - Spark](Project%203%20-%20Spark)**| Reading and transforming data from AWS S3 with Spark to parse them in partitioned parquet files | :heavy_check_mark:
 **[Project 4 - Airflow Pipelines](Project%204%20-%20Airflow%20Pipelines)**| Building an Airflow Pipeline to automate parsing and transforming files from AWS S3 to AWS Redshift | :heavy_check_mark:
-**[Project 5 - Capstone Project](Project%205%20-%20Capstone%20Project)**| Final Project | 
+**[Project 5 - Capstone Project](Project%205%20-%20Capstone%20Project)**| Final Project | :heavy_check_mark:
