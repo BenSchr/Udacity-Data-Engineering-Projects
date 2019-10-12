@@ -19,10 +19,10 @@ If the notebooks doesn't get loaded you can use the nbviewer from jupyter: https
 
 # The database schema design.
 
-<img src="./images/ERD.png?raw=true" width="800" />
+<img src="./images/ERD.png?raw=true" width="600" />
 
 # Dataset used
 
-* **NY Crime**: ```https://www1.nyc.gov/site/nypd/stats/crime-statistics/historical.page```
-* **NY Airbnb**: ```https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data```
-* **NY Weather**: ```https://www.kaggle.com/mathijs/weather-data-in-new-york-city-2016```
+* **NY Crime**: https://www1.nyc.gov/site/nypd/stats/crime-statistics/historical.page
+* **NY Airbnb**: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
+* **NY Weather**: https://www.kaggle.com/mathijs/weather-data-in-new-york-city-2016
